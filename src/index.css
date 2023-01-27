@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    .heading {
+        @apply text-black text-4xl font-bold
+    }
+
+    
+.grid-rows-8 {
+	grid-template-rows: repeat(8, 4rem);
+}
+}
